@@ -1,0 +1,36 @@
+@import url("styles/header.css");
+
+/* Importando Gotham */
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/gotham.woff2') format('woff2'),
+         url('fonts/gotham.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Importando Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto.woff2') format('woff2'),
+         url('fonts/roboto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor-fundo: #EBECEE;
+    --rosa: #ED145B; 
+    --cinza: #ACC1CC; 
+    --preto: #101010; 
+
+    --fonte-principal: 'Gotham', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
