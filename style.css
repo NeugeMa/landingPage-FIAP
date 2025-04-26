@@ -23,6 +23,7 @@
     --rosa: #ED145B; 
     --cinza: #ACC1CC; 
     --preto: #101010; 
+    --cinza-escuro: #101010;
 
     --fonte-principal: 'Gotham', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
@@ -31,6 +32,8 @@
 body {
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
-}
+
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
