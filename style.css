@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/educacao.css");
+@import url("styles/modal.css");
 
 /* Importando Gotham */
 @font-face {
@@ -23,6 +25,7 @@
     --cor-fundo: #EBECEE;
     --rosa: #ED145B; 
     --cinza: #ACC1CC; 
+    --cinza-claro: #555555;
     --preto: #101010; 
     --cinza-escuro: #101010;
 

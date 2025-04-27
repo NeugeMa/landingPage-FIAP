@@ -54,6 +54,7 @@
     margin-right: 18%;
     text-transform: uppercase;
     color: var(--cinza);
+    font-family: var(--fonte-principal);
 }
 
 .botao-rolamento-img {

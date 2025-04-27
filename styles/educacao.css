@@ -1,0 +1,37 @@
+.educacao {
+    margin-top: 12%;
+}
+
+.container-educacao {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 55px;   
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+
+    margin-bottom: 5%;
+}
+
+.content-educacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.info-paragrafo {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+    font-size: 16px;
+
+    flex: 2;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* CSS - Imagem */
+.info-imagem {
+    width: 100%;
+}
