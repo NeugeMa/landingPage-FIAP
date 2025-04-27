@@ -1,0 +1,11 @@
+/* Animação de Fade-In - Banner */
+.fade-in {
+    opacity: 0; /* Elemento invisível */
+    transform: translateX(-50px); 
+    transition: opacity 3s ease, transform 2s ease; 
+}
+
+.fade-in.show {
+    opacity: 1; /* Elemento visível */
+    transform: translateY(0); 
+}
