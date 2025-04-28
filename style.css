@@ -1,10 +1,13 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/educacao.css");
+@import url("styles/estrutura.css");
 
-@import url("styles/animacao.css");
+@import url("styles/fadeIn.css");
 @import url("styles/modal.css");
 @import url("styles/parallax.css");
+
+@import url("styles/gradiente.css");
 
 /* Importando Gotham */
 @font-face {
@@ -31,6 +34,8 @@
     --cinza-claro: #555555;
     --preto: #101010; 
     --cinza-escuro: #101010;
+    --branco: #FFFFFF;
+    --azulado: #ACC1CC; 
 
     --fonte-principal: 'Gotham', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;

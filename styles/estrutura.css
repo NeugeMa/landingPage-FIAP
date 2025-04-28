@@ -1,0 +1,58 @@
+.container-estrutura {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.estrutura-titulo {
+    font-size: 55px;   
+    text-transform: uppercase;
+    color: var(--azulado);
+
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.content-estrutura {
+}
+
+.info-titulo-estrutura {
+    color: var(--azulado);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -1px;
+    
+    margin-left: 5%;
+}
+
+.info-paragrafo-estrutura {
+    color: var(--azulado);
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+/* CSS - Expansão de Conteúdo */
+.expand-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px; /* Espaço entre o texto e a imagem */
+    vertical-align: middle; /* Alinha a imagem ao texto */
+}
+
+.extra-content {
+    display: none; /* Oculta o conteúdo inicialmente */
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--cinza-claro);
+}
+
+/* Linha Separação */
+.line {
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+    height: 1px;
+    width: 90%;
+    background-color: var(--cinza-claro);
+}

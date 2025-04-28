@@ -1,0 +1,14 @@
+/* Fundo Gradiente */
+.gradiente {
+    background: radial-gradient(circle at left, #006BB780 10%, transparent 70%, black 100%) no-repeat,
+                radial-gradient(circle at right, #006BB780 10%, transparent 70%, black 100%) no-repeat,
+                black;
+    height: 100vh;
+    background-size: 30% 100%, 30% 100%, 100% 100%;
+    background-position: left, right, center;
+
+    padding: 20px; 
+    margin: 0;
+
+}
+

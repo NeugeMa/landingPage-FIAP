@@ -76,3 +76,14 @@ modal.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 });
+
+// ---------------------------------------------------------------- //
+// Função para abrir/ fechar Modal 
+function toggleContent() {
+    const extraContent = document.getElementById('extraContent');
+    if (extraContent.style.display === 'none' || extraContent.style.display === '') {
+        extraContent.style.display = 'block'; // Mostra o conteúdo
+    } else {
+        extraContent.style.display = 'none'; // Oculta o conteúdo
+    }
+}
