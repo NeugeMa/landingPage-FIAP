@@ -23,27 +23,41 @@
 
 .info-paragrafo {
     color: var(--cinza-claro);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-
     line-height: 1.4; 
     margin-bottom: 10px; 
     text-align: justify; 
 }
 
 /* Primeiro texto e imagem */
-.text-and-image {
+.texto-info-1 {
     display: flex;
     flex-direction: column; 
     gap: 15px; 
     flex: 1; 
 }
 
-
-/* Segundo texto */
-.extra-info {
+/* Segundo Texto + Li */
+.texto-info-2 {
     flex: 1;
 }
+
+.info-subtitulo {
+    color: var(--cinza-claro);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}   .barra-rosa {
+        color: var(--rosa);
+    }
+
+    .info-guia {
+        color: var(--rosa);
+        font-size: 14px;
+        list-style: none; 
+        margin-bottom: 2%;
+    }
+
+
 
 
 /* CSS - IMAGEM */
