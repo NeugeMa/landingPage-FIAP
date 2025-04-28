@@ -12,3 +12,15 @@
 
 }
 
+/* Responsividade Mobile */
+@media (max-width: 480px) {
+    .gradiente {
+        background: radial-gradient(circle at left, #006BB740 20%, transparent 60%, black 100%) no-repeat,
+                    black;
+        background-size: 50% 100%, 100% 100%;
+        background-position: left, center;
+        height: 100vh;
+        padding: 20px;
+        margin: 0;
+    }
+}
