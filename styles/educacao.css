@@ -1,5 +1,5 @@
 .educacao {
-    margin-top: 12%;
+    margin-top: 18%;
 }
 
 .container-educacao {
@@ -19,6 +19,8 @@
     display: flex; 
     gap: 100px; 
     align-items: flex-start; 
+
+    margin-bottom: 5%;
 }
 
 .info-paragrafo {
@@ -58,11 +60,15 @@
     }
 
 
-
-
 /* CSS - IMAGEM */
 .inline-image {
     width: 100%;
     height: auto;
     max-width: 500px; 
+}
+
+/* CSS - Botão Rolamento */
+.botao-rolamento-img-2 {
+    margin-left: 100%;
+    margin-bottom: 10%;
 }

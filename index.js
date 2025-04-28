@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
 });
 
 // ------------------------------------------------------------- //
-// Criação Scroll
+// Criação - Scroll Down 
 const scrollButton = document.querySelector('.scroll-down');
 
 // Adiciona o evento de clique
@@ -37,6 +37,24 @@ scrollButton.addEventListener('click', (event) => {
         block: 'start' 
     });
 });
+
+// Criação - Scroll Up
+const scrollUpButton = document.querySelector('.scroll-up');
+
+scrollUpButton.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    // Sessão de destino
+    const targetSection = document.querySelector('#header');
+
+    // Rolamento suave
+    targetSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+});
+
+
 
 // ------------------------------------------------------------- //
 // Criação Modal 
