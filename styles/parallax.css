@@ -1,0 +1,9 @@
+.parallax {
+    position: relative;
+    height: 400px; /* Altura da seção */
+    background-image: url('/imgs/break-image.jpg');
+    background-attachment: fixed; /* Efeito parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
