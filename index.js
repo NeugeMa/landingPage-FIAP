@@ -1,4 +1,15 @@
-// Criação Animação
+// Barra de Navegação
+document.addEventListener("scroll", () => {
+    const progressBar = document.querySelector(".progress");
+    const scrollTop = window.scrollY;
+    const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercentage = (scrollTop / documentHeight) * 100;
+
+    progressBar.style.width = `${scrollPercentage}%`;
+});
+
+// ------------------------------------------------------------- //
+// Animação Fade-In
 window.addEventListener('load', () => {
     // Seleciona todos os elementos com a classe 'fade-in'
     const fadeInElements = document.querySelectorAll('.fade-in');
