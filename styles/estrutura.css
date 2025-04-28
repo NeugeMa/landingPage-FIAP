@@ -12,40 +12,49 @@
     margin-bottom: 5%;
 }
 
-.content-estrutura {
-}
 
 .info-titulo-estrutura {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
     color: var(--azulado);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: -1px;
-    
     margin-left: 5%;
+    margin-right: 5%; 
 }
 
 .info-paragrafo-estrutura {
     color: var(--azulado);
     margin-left: 5%;
+    margin-bottom: 2%;
     font-size: 14px;
 }
 
 /* CSS - Expansão de Conteúdo */
 .expand-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    margin-left: 10px; /* Espaço entre o texto e a imagem */
-    vertical-align: middle; /* Alinha a imagem ao texto */
+    vertical-align: middle; 
 }
 
 .extra-content {
-    display: none; /* Oculta o conteúdo inicialmente */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
     margin-top: 10px;
     font-size: 16px;
     color: var(--cinza-claro);
-}
+    display: block;
+    letter-spacing: 1px;
+    
+}   .extra-content.open {
+    max-height: 500px; 
+    }
 
 /* Linha Separação */
 .line {

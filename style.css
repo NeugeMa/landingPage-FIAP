@@ -2,12 +2,12 @@
 @import url("styles/banner.css");
 @import url("styles/educacao.css");
 @import url("styles/estrutura.css");
+@import url("styles/footer.css");
 
-@import url("styles/fadeIn.css");
-@import url("styles/modal.css");
-@import url("styles/parallax.css");
-
-@import url("styles/gradiente.css");
+@import url("styles/animation/fadeIn.css");
+@import url("styles/animation/modal.css");
+@import url("styles/animation/parallax.css");
+@import url("styles/animation/gradiente.css");
 
 /* Importando Gotham */
 @font-face {

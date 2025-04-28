@@ -79,11 +79,15 @@ modal.addEventListener('click', (event) => {
 
 // ---------------------------------------------------------------- //
 // Função para abrir/ fechar Modal 
-function toggleContent() {
-    const extraContent = document.getElementById('extraContent');
-    if (extraContent.style.display === 'none' || extraContent.style.display === '') {
-        extraContent.style.display = 'block'; // Mostra o conteúdo
+function toggleContent(contentId, iconId) {
+    const extraContent = document.getElementById(contentId);
+    const toggleIcon = document.getElementById(iconId);
+
+    if (extraContent.classList.contains('open')) {
+        extraContent.classList.remove('open'); // Fecha o conteúdo
+        toggleIcon.src = '/svg/cursor-open.svg'; // Caminho para a imagem de "+"
     } else {
-        extraContent.style.display = 'none'; // Oculta o conteúdo
+        extraContent.classList.add('open'); // Abre o conteúdo
+        toggleIcon.src = '/svg/cursor-close.svg'; // Caminho para a imagem de "-"
     }
 }
