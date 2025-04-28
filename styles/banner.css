@@ -60,3 +60,47 @@
 .botao-rolamento-img {
     margin-left: 68%;
 }
+
+.banner-texto-container {
+    display: none; /* Deixado ocultado na resolução Desktop */
+}
+
+/* Responsividade Mobile */
+@media (max-width: 480px) {
+    .banner {
+        height: 300px;
+    }
+
+    .content-banner {
+        margin-top: 50px; 
+        margin-left: 30px; 
+    }
+
+    .banner-titulo {
+        font-size: 40px;
+    }
+
+    /* Oculta texto banner */
+    .content-banner .banner-texto {
+        display: none; 
+    }
+
+    /* Fundo gradiente para o texto abaixo do banner */
+    .banner-texto-container {
+        display: block; 
+        background-color: var(--preto);
+        padding: 20px 0; 
+    }
+
+    .banner-texto-container .banner-texto {
+        font-size: 15px;
+        letter-spacing: 1px;
+        max-width: 95%; 
+        margin-left: 3%;
+        color: var(--cinza); 
+    }
+
+    .botao-rolamento {
+        display: none; 
+    }
+}
