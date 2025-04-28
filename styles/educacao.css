@@ -72,3 +72,51 @@
     margin-left: 100%;
     margin-bottom: 10%;
 }
+
+
+
+    /* Responsividade Mobile */
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 40px; 
+        margin-left: 5%;
+    }
+
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+      }
+    
+      .texto-info-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .info-paragrafo {
+        text-align: justify;
+        max-width: 100%;
+        line-height: 1.4; 
+      }
+
+      .info-paragrafo-2 {
+        text-align: justify;
+        max-width: 100%;
+        line-height: 1.4; 
+      }
+    
+      .image {
+        width: 100%;
+        text-align: center;
+      }
+    
+      .inline-image {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .botao-rolamento-img-2 {
+        margin-left: 80%;
+      }
+}
